@@ -18,6 +18,9 @@ Mở Terminal và chạy các lệnh sau:
  	~/Robocon2023turtlebot3_ws/src$ cd ~/Robocon2023turtlebot3_ws 
 - Chạy lệnh build các packages của ws:
 	~/Robocon2023turtlebot3_ws$ colcon build
+	Cần cài đặt Gazebo: 
+	sudo apt install gazebo
+	sudo apt install ros-humble-gazebo-ros-pkgs
 - Source ws vào layer làm việc (mỗi terminal mới đều phải chạy lại lệnh này, nếu muốn lệnh này luôn chạy thì ghi vào file .bashrc)
 	~/Robocon2023turtlebot3_ws$ source install/setup.bash
 
