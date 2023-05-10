@@ -18,9 +18,9 @@ Mở Terminal và chạy các lệnh sau:
  	~/Robocon2023turtlebot3_ws/src$ cd ~/Robocon2023turtlebot3_ws 
 - Chạy lệnh build các packages của ws:
 	~/Robocon2023turtlebot3_ws$ colcon build
-	Cần cài đặt Gazebo: 
-	sudo apt install gazebo
-	sudo apt install ros-humble-gazebo-ros-pkgs
+	-Cần cài đặt Gazebo: 
+	-sudo apt install gazebo
+	-udo apt install ros-humble-gazebo-ros-pkgs
 - Source ws vào layer làm việc (mỗi terminal mới đều phải chạy lại lệnh này, nếu muốn lệnh này luôn chạy thì ghi vào file .bashrc)
 	~/Robocon2023turtlebot3_ws$ source install/setup.bash
 
@@ -28,7 +28,9 @@ Mở Terminal và chạy các lệnh sau:
 - Chạy lệnh export robot (mỗi terminal mới đều phải chạy lại lệnh này, nếu muốn lệnh này luôn chạy thì ghi vào file .bashrc)
 	~/Robocon2023turtlebot3_ws export TURTLEBOT3_MODEL=waffle
 - Tại thư mục ws chạy lệnh launch:
+	- gazebo   ( Can bat gazebo thu cong bang tay ) 
 	~/Robocon2023turtlebot3_ws ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+	
 + Điều khiển Robot:
 1. Sử dụng gói điều khiển robot bằng bàn phims:
 	~/Robocon2023turtlebot3_ws ros2 run turtlebot3_teleop teleop_keyboard 
